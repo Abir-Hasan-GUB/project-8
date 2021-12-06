@@ -1,0 +1,905 @@
+@charset "UTF-8";
+html {
+  font-size: 10px; }
+
+body {
+  font-family: 'Poppins', sans-serif; }
+
+#navBar {
+  background: #FFDD3C;
+  border-bottom: 0.3rem solid rgba(255, 255, 255, 0.657); }
+  #navBar .bannerTop {
+    font-size: 1.8rem;
+    color: #fff;
+    background: #000;
+    padding: 1rem 5rem; }
+  #navBar .navbar .navbar-nav .nav-item {
+    padding-right: 1.5rem; }
+    #navBar .navbar .navbar-nav .nav-item .active {
+      text-decoration: underline; }
+    #navBar .navbar .navbar-nav .nav-item a {
+      font-size: 1.8rem;
+      font-weight: 400;
+      color: #000000; }
+
+#bannerHome {
+  height: 80rem;
+  background: url(../images/hero1.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #bannerHome .bannerContent {
+    height: 80rem;
+    padding-top: 15rem; }
+    #bannerHome .bannerContent .bannerTitle {
+      font-size: 5rem;
+      font-weight: 600;
+      color: #000; }
+    #bannerHome .bannerContent .bannerText {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #000; }
+
+.capatativeText {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center; }
+  .capatativeText h3 {
+    font-size: 2.8rem;
+    font-weight: 700; }
+  .capatativeText .groupText p {
+    font-size: 2rem;
+    font-weight: 700; }
+    .capatativeText .groupText p img {
+      padding-right: 1rem; }
+
+#degitalServicePower {
+  padding: 8rem 0; }
+  #degitalServicePower .vSignAlign {
+    margin-top: 8rem; }
+    #degitalServicePower .vSignAlign .card {
+      margin-top: 5rem;
+      border: none; }
+      #degitalServicePower .vSignAlign .card .card-title {
+        font-size: 2.8rem;
+        font-weight: 700; }
+      #degitalServicePower .vSignAlign .card .cardDivider {
+        height: .3rem;
+        background: #5A6772;
+        opacity: .2;
+        margin-top: 2rem; }
+      #degitalServicePower .vSignAlign .card .card-text {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #5A6772; }
+    #degitalServicePower .vSignAlign .cardTwo {
+      margin-right: -8rem; }
+    #degitalServicePower .vSignAlign .cardFour {
+      margin-left: -10rem; }
+
+#digitalMarketingCard {
+  padding: 8rem 0;
+  background: #FFDD3C; }
+  #digitalMarketingCard .secondText {
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-align: center; }
+  #digitalMarketingCard .digitalMarketingCardsCtrl {
+    padding-top: 5rem; }
+    #digitalMarketingCard .digitalMarketingCardsCtrl .card {
+      text-align: center;
+      padding: 5rem 0;
+      border-top: 1rem solid #000;
+      background: #F3F3F3; }
+      #digitalMarketingCard .digitalMarketingCardsCtrl .card .card-title {
+        font-size: 2.4rem;
+        font-weight: 700;
+        text-align: center; }
+      #digitalMarketingCard .digitalMarketingCardsCtrl .card .card-text {
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-align: center;
+        color: #5A6772;
+        padding-top: 2rem;
+        padding-bottom: 2rem; }
+      #digitalMarketingCard .digitalMarketingCardsCtrl .card .btnSm {
+        padding: .5rem 2rem;
+        font-size: 1.6rem;
+        font-weight: 700;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        color: #000;
+        border: .4rem solid #FFCC00; }
+      #digitalMarketingCard .digitalMarketingCardsCtrl .card .card-footer {
+        background: transparent;
+        border: none; }
+
+#theCapivate {
+  padding: 8rem 0; }
+  #theCapivate .bannerText {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center; }
+  #theCapivate .theCapivateCards {
+    padding-top: 6rem; }
+    #theCapivate .theCapivateCards .card {
+      border: none;
+      text-align: center; }
+      #theCapivate .theCapivateCards .card img {
+        width: 8rem;
+        margin: 0 auto; }
+      #theCapivate .theCapivateCards .card .card-title {
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: #000;
+        padding-top: 2rem;
+        padding-bottom: 2.5rem; }
+      #theCapivate .theCapivateCards .card .card-text {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #5A6772; }
+    #theCapivate .theCapivateCards .btnCtrl button {
+      border-color: #FFCC00; }
+
+#testimonial .testimonialContent3 {
+  height: 40rem;
+  background: url(../images/quateWhite.png) !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  width: 85%;
+  margin: 0 auto; }
+
+#letestFrom {
+  padding: 8rem 0; }
+  #letestFrom .secondText {
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-align: center; }
+  #letestFrom .letestFormCards {
+    margin-top: 5rem; }
+    #letestFrom .letestFormCards .col-md-4 .oneCard {
+      background: url(../images/home-card-1.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 50rem; }
+    #letestFrom .letestFormCards .col-md-4 .twoCard {
+      background: url(../images/home-card-2.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 50rem; }
+    #letestFrom .letestFormCards .col-md-4 .thirdCard {
+      background: url(../images/home-card-3.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 50rem; }
+    #letestFrom .letestFormCards .col-md-4 .innterDetails {
+      background: #fff;
+      width: 75%;
+      margin-left: 3.5rem;
+      margin-bottom: 3.5rem;
+      padding: 2rem; }
+      #letestFrom .letestFormCards .col-md-4 .innterDetails h3 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #000; }
+      #letestFrom .letestFormCards .col-md-4 .innterDetails a {
+        display: block;
+        font-size: 1.8rem;
+        color: #000;
+        font-weight: 700;
+        text-decoration: none;
+        padding-top: 5rem; }
+  #letestFrom .btnCtrl button {
+    border-color: #FFCC00 !important; }
+
+.submitBtn {
+  font-weight: 700;
+  background: #FFCC00;
+  padding: 1rem 4rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem; }
+
+#banner {
+  background: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: contain; }
+  #banner .bannerContent {
+    height: 80rem;
+    padding-top: 15rem; }
+    #banner .bannerContent .bannerTitle {
+      font-size: 5rem;
+      font-weight: 600;
+      color: #000; }
+    #banner .bannerContent .bannerText {
+      font-size: 2.8rem;
+      font-weight: 400;
+      color: #000; }
+
+.requler {
+  font-weight: 400 !important; }
+
+.semiBold {
+  font-weight: 600 !important; }
+
+.bold {
+  font-weight: 700 !important; }
+
+.medium {
+  font-weight: 500 !important; }
+
+.button {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #000000;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+  border: .2rem solid #000000; }
+
+.bannerTitle {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #000; }
+
+#bannerDownContent {
+  padding-bottom: 8rem; }
+
+.homeBannerDown {
+  padding-top: 8rem;
+  background: url(../images/bannerDownFirst.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+
+.secondTitle {
+  font-size: 5.1rem;
+  font-weight: 400;
+  color: #000;
+  text-align: center; }
+
+.details {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #000; }
+
+.yellow {
+  background: #FDD32D !important; }
+
+#getABetter {
+  background: #FDD32D;
+  padding: 8rem 0; }
+
+.testimonial11thPage #testBg .testimonialContent3 {
+  background: none !important; }
+
+.bigListCtrl {
+  padding-top: 5rem; }
+  .bigListCtrl li {
+    list-style-image: url(../images/Right.png);
+    list-style-position: inside; }
+    .bigListCtrl li .listTitle {
+      font-size: 3.5rem;
+      font-weight: 500;
+      padding-left: 9rem;
+      margin-top: -6rem; }
+    .bigListCtrl li .divider {
+      height: .5rem;
+      background: #fff;
+      margin-left: 9rem;
+      width: 35%;
+      margin-bottom: 2rem;
+      margin-top: 1rem; }
+    .bigListCtrl li .listDetails {
+      font-size: 2.5rem;
+      font-weight: 500;
+      padding-left: 9rem;
+      padding-bottom: 5rem; }
+
+#workWith {
+  padding: 8rem 0; }
+
+.secondTitleText {
+  font-size: 2.2rem;
+  font-weight: 700 !important;
+  color: #000;
+  text-align: center;
+  padding: 0 15rem; }
+
+.innerWorkCards .card {
+  min-height: 28rem;
+  border: none; }
+  .innerWorkCards .card .card-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #000; }
+  .innerWorkCards .card .card-text {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #000; }
+
+.innerWorkCards .col-sm-6:nth-child(2n-1) {
+  text-align: right; }
+
+.divider3 {
+  height: .3rem;
+  background: #DDE1E3; }
+
+.buttonYellow {
+  border-color: #FFCC00; }
+
+#whyTrust {
+  background: #FFDD3C;
+  padding: 8rem 0; }
+  #whyTrust .innerWorkCards .card {
+    background: transparent; }
+    #whyTrust .innerWorkCards .card .titleDivider {
+      height: .3rem;
+      background: #fff;
+      margin-left: 5rem; }
+    #whyTrust .innerWorkCards .card .card-text {
+      padding-top: 1rem; }
+
+#testimonial {
+  padding: 8rem 0; }
+  #testimonial .testimonialContent {
+    height: 40rem;
+    background: url(../images/quateBg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 85%;
+    margin: 0 auto; }
+  #testimonial .testimonialText {
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto; }
+  #testimonial .commentAuthor {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #000; }
+  #testimonial .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: black; }
+  #testimonial .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 3.5rem;
+    line-height: 2.0rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #B1B1B1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#faq {
+  padding: 8rem 0;
+  background: url(../images/faqBg.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #faq .faqAccordion .accordion-item {
+    background: transparent; }
+  #faq .faqAccordion .accordion-button {
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: #000;
+    background: transparent; }
+  #faq .faqAccordion .accordion-button::after {
+    flex-shrink: 0;
+    width: 5.25rem;
+    height: 5.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(../images/accrodionOff.png);
+    background-repeat: no-repeat;
+    background-size: 4.25rem;
+    transition: transform .2s ease-in-out; }
+  #faq .faqAccordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/accrodion.png);
+    transform: rotate(-180deg); }
+  #faq .faqAccordion .accordion-body {
+    background: #fff;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #000;
+    border-top: .5rem solid #000;
+    padding: 3rem;
+    border-radius: 0rem 0rem 3rem 3rem;
+    -webkit-border-radius: 0rem 0rem 3rem 3rem;
+    -moz-border-radius: 0rem 0rem 3rem 3rem;
+    -ms-border-radius: 0rem 0rem 3rem 3rem;
+    -o-border-radius: 0rem 0rem 3rem 3rem;
+    box-shadow: 1px 6px 6px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 6px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 6px 6px 0px rgba(0, 0, 0, 0.75); }
+  #faq .faqAccordion .accordion-item {
+    border-bottom: .3rem solid #FFFFFF;
+    margin-bottom: 2rem; }
+  #faq .faqAccordion .accordion-button:focus {
+    z-index: 0;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none; }
+
+#requestAQuate {
+  background: url(../images/getAQuate.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5rem 0; }
+  #requestAQuate .requestForm {
+    padding: 5rem;
+    width: 65%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.801);
+    border-radius: 2.5rem;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    -ms-border-radius: 2.5rem;
+    -o-border-radius: 2.5rem; }
+    #requestAQuate .requestForm .requestFormControl .card {
+      color: #000;
+      border: none;
+      background: transparent; }
+      #requestAQuate .requestForm .requestFormControl .card * {
+        font-size: 2rem; }
+      #requestAQuate .requestForm .requestFormControl .card input,
+      #requestAQuate .requestForm .requestFormControl .card select,
+      #requestAQuate .requestForm .requestFormControl .card textarea {
+        border: .2rem solid #000;
+        padding: 1rem 1rem; }
+
+#footer {
+  padding-top: 8rem;
+  padding-bottom: 4rem; }
+  #footer .footerContent * {
+    color: #000; }
+  #footer .footerContent h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 2rem; }
+  #footer .footerContent .quickLink li {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: .5rem; }
+    #footer .footerContent .quickLink li a {
+      text-decoration: none; }
+  #footer .footerContent .contact h4 {
+    font-size: 2rem;
+    font-weight: 700; }
+  #footer .footerContent .contact p {
+    font-size: 2rem; }
+  #footer .footerContent .contact .contactUsBtn {
+    background: #FFCC00;
+    padding: .5rem 3.5rem;
+    font-size: 1.9rem;
+    font-weight: 500;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem; }
+  #footer .footerDivider {
+    height: .1rem;
+    background: #111111;
+    margin: 0 4%;
+    margin-top: 4rem; }
+  #footer .copyright p {
+    font-size: 1.8rem; }
+    #footer .copyright p a {
+      text-decoration: none;
+      color: #000; }
+  #footer .copyright .Privacy {
+    padding-right: 20%; }
+
+.innerWorkCards2 .card {
+  min-height: 34rem; }
+
+.innerWorkCards3 .card {
+  min-height: 16rem; }
+
+.innerWorkCards3 .card {
+  min-height: 20rem; }
+
+.Coaching {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem; }
+
+.innerWorkCards2 .col-sm-6:nth-child(2n-1) {
+  text-align: left; }
+
+.yellowTestimonal {
+  background: #FFDD3C; }
+
+.innerWorkCards6 .card {
+  min-height: 20rem; }
+
+#Coaching2 {
+  width: 50% !important; }
+
+.testimonialContent3 {
+  height: auto !important;
+  background-repeat: no-repeat;
+  background: none !important; }
+
+#testBg {
+  background: url(../images/testBgQueate.png);
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.boldBannerText {
+  font-size: 4rem !important;
+  font-weight: 600 !important; }
+
+.portflioBanner {
+  background: #FFDD3C !important;
+  height: 50rem; }
+
+#portfolioCards {
+  padding: 8rem 0; }
+  #portfolioCards .card {
+    margin-bottom: 4rem;
+    border: none; }
+    #portfolioCards .card .card-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-align: center;
+      padding-top: 1rem; }
+
+#portfolioLastText {
+  background: #FFDD3C;
+  padding: 4rem 0; }
+  #portfolioLastText p {
+    font-size: 2rem;
+    font-weight: 600; }
+  #portfolioLastText .portfolioLastTextDetails {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 1.5rem; }
+
+.notiMsg {
+  font-size: 2.8rem;
+  font-weight: 700; }
+
+.submitionForm {
+  width: 70%;
+  margin: 0 auto; }
+  .submitionForm .card {
+    border: none;
+    background: transparent; }
+  .submitionForm label {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: left; }
+  .submitionForm input {
+    padding: 1rem 1rem;
+    font-size: 1.4rem;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    width: 100%; }
+  .submitionForm .form-control {
+    width: 100%; }
+  .submitionForm .submit {
+    padding-top: 2.5rem; }
+
+.blogBanner {
+  background: #FFDD3C !important;
+  height: 60rem !important; }
+
+#innerNavBar {
+  background: #000; }
+  #innerNavBar .navbar-nav {
+    padding: 1rem 0; }
+    #innerNavBar .navbar-nav .nav-item {
+      font-size: 1.8rem;
+      padding-right: 6rem; }
+      #innerNavBar .navbar-nav .nav-item a {
+        color: #fff;
+        text-transform: uppercase; }
+
+#bogDetails {
+  padding: 5rem 0; }
+  #bogDetails .mainBlogContainer {
+    position: relative;
+    margin-bottom: 5rem; }
+  #bogDetails .blogDetailContent {
+    height: 60rem;
+    box-shadow: 1px 2px 9px 4px rgba(217, 217, 217, 0.59);
+    -webkit-box-shadow: 1px 2px 9px 4px rgba(217, 217, 217, 0.59);
+    -moz-box-shadow: 1px 2px 9px 4px rgba(217, 217, 217, 0.59);
+    width: 75%; }
+  #bogDetails .controlPositionOFBlogBg {
+    margin: 0 0 0 auto; }
+  #bogDetails .mainBlogTextContent {
+    padding: 0 1.5rem;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    overflow: hidden;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%); }
+    #bogDetails .mainBlogTextContent h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: #000; }
+    #bogDetails .mainBlogTextContent h3 {
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      color: #7C7C7C; }
+    #bogDetails .mainBlogTextContent .blgTxt {
+      font-size: 1.8rem;
+      color: #7C7C7C; }
+    #bogDetails .mainBlogTextContent p a {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #000;
+      text-decoration: none; }
+    #bogDetails .mainBlogTextContent .nextImg {
+      height: 3rem;
+      margin-left: 2rem;
+      width: 3rem;
+      display: inline-block;
+      background: #FFDD3C;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      text-align: center;
+      line-height: 3rem; }
+      #bogDetails .mainBlogTextContent .nextImg img {
+        height: 1.5rem; }
+
+.featuredTitle {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  text-align: center; }
+
+.brandImg {
+  padding-bottom: 5rem; }
+  .brandImg img {
+    height: 7.5rem; }
+
+#newsLetter {
+  background: #FFDD3C;
+  padding: 8rem 0; }
+
+.stayUp {
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-top: 5rem;
+  text-align: center; }
+
+.privacy {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 2rem; }
+  .privacy a {
+    color: #000;
+    text-decoration: none; }
+
+.acessResource {
+  font-size: 4rem !important;
+  font-weight: 600 !important;
+  text-align: center; }
+
+.blackDivider {
+  height: .5rem;
+  background: #000;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 30%; }
+
+.busnessDetails {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 2rem 0; }
+
+.bigLogoCtrl {
+  width: 20%;
+  margin: 0 auto; }
+
+.increassCards {
+  margin-top: 5rem; }
+  .increassCards .card {
+    border: none; }
+    .increassCards .card img {
+      width: 8rem; }
+    .increassCards .card .card-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-top: 2rem; }
+    .increassCards .card .card-text {
+      font-size: 1.8rem;
+      font-weight: 400;
+      margin-top: 2rem; }
+
+#incressBuisness {
+  padding: 8rem 0; }
+
+.miniList .bigListCtrl li {
+  list-style-image: url(../images/RightcopyWhite.png) !important; }
+  .miniList .bigListCtrl li .listTitle {
+    font-size: 2.5rem !important;
+    font-weight: 600;
+    padding-top: 1.6rem;
+    margin-bottom: 5rem; }
+
+.foundBottomText {
+  padding-top: 3rem; }
+  .foundBottomText p {
+    font-size: 1.8rem;
+    font-weight: 500; }
+
+#featuredIn {
+  padding: 8rem 0; }
+
+#homePageCtrl * {
+  font-weight: 700 !important; }
+
+@media screen and (max-width: 768px) {
+  #bannerHome .bannerContent {
+    height: auto !important;
+    padding-top: 2rem; }
+  #bannerHome {
+    height: auto !important; }
+  #bannerHome {
+    height: auto !important; }
+  #bannerHome .bannerContent .bannerTitle {
+    font-size: 3.5rem; }
+  #bannerHome .bannerContent .bannerText {
+    font-size: 2rem; }
+  .button {
+    margin-bottom: 1.5rem; }
+  .bannerTitle {
+    font-size: 3.5rem; }
+  .details {
+    font-size: 1.8rem; }
+  .capatativeText h3 {
+    font-size: 2.2rem; }
+  .capatativeText .groupText p {
+    font-size: 1.5rem; }
+  .capatativeText {
+    width: 85%; }
+  .secondTitle {
+    font-size: 3.5rem;
+    padding-bottom: 1rem; }
+  .bigListCtrl li .listTitle {
+    font-size: 2.5rem; }
+  .bigListCtrl li .listDetails {
+    font-size: 2rem; }
+  #degitalServicePower .vSignAlign .cardTwo {
+    margin-right: 0; }
+  #degitalServicePower .vSignAlign .cardFour {
+    margin-left: -0; }
+  #digitalMarketingCard .digitalMarketingCardsCtrl .col-sm-3 {
+    margin-bottom: 1.5rem; }
+  #testimonial .testimonialContent3 {
+    height: auto;
+    background-image: none !important;
+    width: 100%; }
+  #letestFrom .secondText {
+    font-size: 2.4rem; }
+  #letestFrom .letestFormCards .col-md-4 {
+    margin-bottom: 1.5rem; }
+  #requestAQuate .requestForm {
+    padding: 0;
+    width: 100%; }
+  .featuredTitle {
+    font-size: 3.5rem; }
+  .stayUp {
+    font-size: 2.5rem; }
+  .submitionForm {
+    width: 100%; }
+  .privacy {
+    font-size: 1.5rem; }
+  #footer .footerContent h3 {
+    margin-top: 2rem; }
+  #footer .copyright .Privacy {
+    padding-right: 0; }
+  #footer .copyright p {
+    font-size: 1.5rem; }
+  #testimonial .testimonialText {
+    font-size: 1.8rem;
+    width: 100%; }
+  #testimonial .commentAuthor {
+    font-size: 1.5rem; }
+  #banner .bannerContent .bannerTitle {
+    font-size: 3.5rem; }
+  #banner {
+    background: #FFDD3C; }
+  #banner .bannerContent {
+    height: auto;
+    padding-top: 2rem; }
+  .secondTitle {
+    font-size: 2.5rem; }
+  .secondTitleText {
+    font-size: 1.8rem;
+    padding: 0; }
+  .innerWorkCards .card .card-text {
+    font-size: 2rem; }
+  #testimonial .testimonialContent {
+    height: auto;
+    background: none;
+    width: 100%; }
+  #faq .faqAccordion .accordion-button {
+    font-size: 2.5rem; }
+  #faq .faqAccordion .accordion-body {
+    background: #fff;
+    font-size: 2rem; }
+  .boldBannerText {
+    font-size: 2.2rem !important; }
+  .portflioBanner {
+    height: 25rem; }
+  #portfolioLastText .portfolioLastTextDetails {
+    width: 100%; }
+  .secondTitle br {
+    display: none; }
+  #navBar .bannerTop {
+    font-size: 1.5rem;
+    padding-right: 0;
+    text-align: center; }
+  #Coaching2 {
+    width: 100% !important; }
+  #testBg {
+    background: none; }
+  #banner .bannerContent .bannerText {
+    font-size: 2.5rem; }
+    #banner .bannerContent .bannerText br {
+      display: none; }
+  .innerWorkCards2 .card {
+    min-height: 25rem; }
+  .blogBanner {
+    height: auto !important;
+    padding-bottom: 3rem; }
+  #bogDetails .blogDetailContent {
+    height: 93rem;
+    width: 100%; }
+  #bogDetails .mainBlogTextContent h1 {
+    font-size: 2.5rem; }
+  .acessResource {
+    font-size: 2.8rem !important; }
+  #bogDetails .mainBlogTextContent h1 br {
+    display: none; }
+  .bannerTitle {
+    padding-top: 2rem;
+    text-align: center !important; }
+    .bannerTitle br {
+      display: none; }
+  .bigLogoCtrl {
+    width: 70%; }
+  .increassCards .card {
+    text-align: center; }
+  .increassCards .card img {
+    margin: 0 auto; } }
